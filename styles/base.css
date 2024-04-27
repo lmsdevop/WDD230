@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* mobile **************************/
+header {
+    background-color: rgb(24, 58, 122);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header span {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.profile-photo {
+    width: 20%;
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+}
+
+main h1 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(24, 58, 122);
+}
+
+section h2 {
+    background-color: rgb(24, 58, 122);
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+section ul {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+section ul li {
+    margin: 5px 0;
+}
+
+section ul li a {
+    margin-right: 5px;
+}
+
+.card {
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+section p {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: black;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+.active {
+    color: rgb(0, 0, 0);
+    background-color: #a0a0a0;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(24, 58, 122);
+    color: white;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#lastModified {
+    color: yellow;
+}
