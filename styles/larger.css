@@ -27,6 +27,7 @@
 
     #myButton {
         display: none;
+        content: x;
     }
 
     nav ul.menuLinks {
