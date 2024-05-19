@@ -1,0 +1,75 @@
+@media screen and (min-width: 500px) {
+
+    header span {
+        font-size: 22px;
+    }
+
+    .header-name {
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        margin: 0;
+        max-width: 100%;
+        height: 50px;
+        align-items: center;
+    }
+
+    nav ul.menuLinks {
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav a {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        width: 100%;
+    }
+
+    #myButton {
+        display: none;
+    }
+
+    /*------------------ MAIN ------------- */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+    }
+
+    main h2:nth-child(3) {
+        display: none;
+    }
+
+    .event-section {
+        grid-column: span 2/3;
+    }
+
+    .weather-section {
+        grid-column: span 2/5;
+    }
+
+    .spotlight-section {
+        grid-column: span 4/5;
+        grid-row-start: 2;
+        display: flex;
+    }
+
+    .spotlight-section div {
+        margin: 0 auto;
+        width: 100%;
+        box-shadow: 0.2rem 0.2rem 0.5rem;
+    }
+}
