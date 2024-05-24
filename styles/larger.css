@@ -17,6 +17,12 @@
         box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
     }
 
+    .hero-title {
+        margin: 50px 0 0 50px;
+        width: 30%;
+        text-align: center;
+    }
+
     nav {
         display: flex;
         margin: 0;
@@ -77,7 +83,13 @@
     }
 
     .number-1 {
-        grid-column: span 2;
+        width: auto;
+        grid-column: span 2/3;
+    }
+
+    .number-2 {
+        width: auto;
+        grid-column: span 1/4;
     }
 
     .temp {
@@ -90,5 +102,9 @@
 
     #lastModified {
         font-size: 15px;
+    }
+
+    picture img {
+        width: 100%;
     }
 }
