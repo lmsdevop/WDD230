@@ -149,7 +149,7 @@ nav a:hover {
 
 /*------------- MAIN -----------------*/
 main {
-    padding: 20px;
+    padding: 10px;
     color: var(--primary-color)
 }
 
@@ -260,4 +260,40 @@ footer div {
 .footer-2 p:nth-child(2) {
     font-size: 18px;
     font-weight: bold;
+}
+
+/*---------------- DISCOVER ------------------*/
+
+.discover-main {
+    display: block;
+}
+
+.side-bar {
+    border: none;
+    padding: 0;
+}
+
+.side-bar div {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.statistic img {
+    width: 100%;
+}
+
+.images-section {
+    border: none;
+    padding: 0;
+}
+
+.images-section img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sidebar-content {
+    text-align: center;
 }

@@ -27,15 +27,15 @@
 <body>
     <header>
         <div class="header-name">
-            <img src="images/logo.png" alt="" class="logo">
+            <img src="images/logo.png" alt="" class="logo" loading="lazy">
             <span>Rio de Janeiro
                 Chamber of Commerce</span>
             <button id="myButton"></button>
         </div>
         <nav id="animateme">
             <ul class="menuLinks">
-                <li class="active"><a href="">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
                 <li><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
             </ul>
@@ -46,40 +46,40 @@
                 <button class="join-button">Join the Chamber</button>
             </div>
         </div>
-
     </header>
-    <main>
-        <section class="event-section">
-            <h2>Events</h2>
-            <h3>Event Name - Subtitle</h3>
-            <p>Here is a briefing of the event and what will happen there </p>
-        </section>
-        <section class="weather-section">
-            <h2>Weather</h2>
-            <p>Temperture</p>
-            <p>Cloudy</p>
-            <p>Humidity: N%</p>
-            <p>Wind Chill: N/A</p>
+    <main class="discover-main">
+        <div class="container">
+            <section class="side-bar">
+                <div id="sidebar-content"></div>
 
-        </section>
-        <h2>Member Spotlights</h2>
-
-        <section class="spotlight-section">
-            <div>
-                <h3>Company</h3>
-                <p>"quotation"</p>
-                <p>email</p>
-                <p>+999-9999-999</p>
-                <p>website</p>
-            </div>
-            <div>
-                <h3>Company</h3>
-                <p>"quotation"</p>
-                <p>email</p>
-                <p>+999-9999-999</p>
-                <p>website</p>
-            </div>
-        </section>
+                <div class="message-head">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga impedit, modi molestias
+                        beatae eos nobis dolore consectetur. Suscipit, consequuntur quo possimus repudiandae quia
+                        obcaecati quis modi earum temporibus aperiam.</p>
+                </div>
+                <div class="statistic">
+                    <h2>Statistic</h2>
+                    <img src="images/graph.jpg" alt="graph" loading="lazy">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos nostrum, quam recusandae
+                        quasi minus ut nihil corrupti eius commodi officia vero asperiores rerum soluta harum doloremque
+                        quod culpa at!</p>
+                </div>
+                <div class="calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed" style="border:solid 1px #777; width: 100%;"
+                        height="400"></iframe>
+                </div>
+            </section>
+            <section class="images-section">
+                <h2>Local Photos</h2>
+                <img src="images/rio1.webp" alt="Rio 1" loading="lazy">
+                <img src="images/rio2.webp" alt="Rio 2" loading="lazy">
+                <img src="images/rio3.webp" alt="Rio 3" loading="lazy">
+                <img src="images/rio4.webp" alt="Rio 4" loading="lazy">
+                <img src="images/rio5.webp" alt="Rio 5" loading="lazy">
+                <img src="images/rio6.webp" alt="Rio 6" loading="lazy">
+            </section>
+        </div>
     </main>
     <footer>
         <div class="footer-1">
