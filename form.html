@@ -5,17 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Lucas Mendonça, course assignment portal">
+    <meta name="author" content="Lucas Mendonça de Souza">
+    <meta property="og:title" content="Lucas Mendonça - WDD 230 - Web Frontend Development">
+    <meta property="og:image" content="https://lmsdevop.github.io/wdd230/images/me.jpg">
+    <meta property="og:url" content="https://lmsdevop.github.io/wdd230/form.html">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,500;0,900;1,200;1,500;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/form.css">
 </head>
 
 <body>
     <header>
-        <!-- Inclua o conteúdo do cabeçalho da sua página inicial aqui -->
+        <img src="images/dark.svg" alt="dark mode" id="darkBtn">
+        <img src="images/me.webp" alt="My photo" class="profile-photo" loading="lazy">
+        <span>Lucas M. de Souza</span>
     </header>
-    <nav>
-        <!-- Inclua o conteúdo de navegação da sua página inicial aqui -->
+    <nav id="animateme">
+        <button id="myButton"></button>
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
     </nav>
-    <main>
+    <main id="main-form">
         <h1>Simple Form</h1>
         <form id="myForm" action="record.html" method="get">
             <div>
@@ -48,22 +72,11 @@
         </form>
     </main>
     <footer>
-        <!-- Inclua o conteúdo do rodapé da sua página inicial aqui -->
+        <p>&copy; <span id="year"></span> Lucas Mendonça - Rio de Janeiro - &#x1F1E7;&#x1F1F7; </p>
+        <p id="lastModified"></p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit', function (event) {
-            const password = document.getElementById('password').value;
-            const passwordConfirm = document.getElementById('password_confirm').value;
-
-            if (password !== passwordConfirm) {
-                alert('Passwords do not match!');
-                document.getElementById('password').value = '';
-                document.getElementById('password_confirm').value = '';
-                document.getElementById('password').focus();
-                event.preventDefault();
-            }
-        });
-    </script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>

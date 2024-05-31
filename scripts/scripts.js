@@ -9,9 +9,15 @@ hamburguerElement.addEventListener('click', () => {
 
 // Dark Mode
 const myBtn = document.querySelector('#darkBtn');
-const mainElemnent = document.querySelector('#main');
+const mainElement = document.querySelector('#main');
+const mainFormElement = document.querySelector('#main-form');
 myBtn.addEventListener('click', () => {
-    mainElemnent.classList.toggle('dark');
+    if (mainElement) {
+        mainElement.classList.toggle('dark');
+    }
+    else {
+        mainFormElement.classList.toggle('dark');
+    }
 });
 
 // Page Visits Display
@@ -26,3 +32,17 @@ if (numVisits !== 0) {
 numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
 
+
+// FORMS
+document.getElementById('myForm').addEventListener('submit', function (event) {
+    const password = document.getElementById('password').value;
+    const passwordConfirm = document.getElementById('password_confirm').value;
+
+    if (password !== passwordConfirm) {
+        alert('Passwords do not match!');
+        document.getElementById('password').value = '';
+        document.getElementById('password_confirm').value = '';
+        document.getElementById('password').focus();
+        event.preventDefault();
+    }
+});
