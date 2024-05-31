@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #4CAF50;
+    --font-family: Arial, sans-serif;
+    --input-border-radius: 5px;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+nav,
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 1em;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: var(--input-border-radius);
+    width: 100%;
+}
+
+button {
+    padding: 0.7em;
+    border: none;
+    border-radius: var(--input-border-radius);
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
