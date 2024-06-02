@@ -95,4 +95,31 @@
         box-shadow: 0 0 50px #333;
     }
 
+    /*----------- JOIN ---------- */
+
+    .join-hero-text {
+        font-size: 80px;
+        color: white;
+    }
+
+    .form-container {
+        flex-direction: column;
+        padding: 20px;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .membership-benefits h3 {
+        margin-top: 0;
+    }
+
+    .membership-benefits ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .membership-benefits li {
+        margin-bottom: 10px;
+    }
+
 }

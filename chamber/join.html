@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rio de Janeiro - Chamber of Commerce | Join - WDD230</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development, Lucas Mendonça, Chamber of Commerce Site Join Page">
+    <meta name="author" content="Lucas Mendonça de Souza">
+    <meta property="og:title" content="Rio de Janeiro - Chamber of Commerce - WDD230">
+    <meta property="og:image" content="https://lmsdevop.github.io/wdd230/chamber/images/christ.png">
+    <meta property="og:url" content="https://lmsdevop.github.io/wdd230/chamber/index.html">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-name">
+            <img src="images/logo.png" alt="" class="logo">
+            <span>Rio de Janeiro
+                Chamber of Commerce</span>
+            <button id="myButton"></button>
+        </div>
+        <nav id="animateme">
+            <ul class="menuLinks">
+                <li><a href="">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+        <div class="header-background">
+            <div>
+                <h1 class="join-hero-text">JOIN THE CHAMBER <br> &#8595; </h1>
+            </div>
+        </div>
+
+    </header>
+    <main class="join-main">
+        <h1>JOIN CHAMBER FORMS</h1>
+        <div class="form-container">
+            <form method="get" action="thankyou.html" onsubmit="return validateForm()">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="title-position">Title/Position:</label>
+                <input type="text" id="title-position" name="title-position" pattern="[A-Za-z\- ]{7,}" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="org-name">Business/Organization Name:</label>
+                <input type="text" id="org-name" name="org-name" required>
+
+                <label for="membership-level">Membership Level:</label>
+                <select id="membership-level" name="membership-level" required>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="membership-benefits">
+                <h3>Membership Benefits</h3>
+                <ul>
+                    <li><strong>NP Membership:</strong> No fee. Basic access to events.</li>
+                    <li><strong>Bronze Membership:</strong> Access to special events, training sessions.</li>
+                    <li><strong>Silver Membership:</strong> Bronze benefits + advertising opportunities.</li>
+                    <li><strong>Gold Membership:</strong> Silver benefits + discounts on all events.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-1">
+            <h3>Rio de Janeiro - Chamber of Commerce</h3>
+            <p>Av. Presidente Vargas, 5000<br>Centro - Rio de Janeiro, RJ</p>
+            <p>info@riochamber.org</p>
+            <p>+55(21) 3333-3333</p>
+        </div>
+        <div class="footer-2">
+            <p>&copy; <span id="year"></span> Rio de Janeiro Chamber</p>
+            <p>Lucas M. de Souza</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

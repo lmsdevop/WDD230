@@ -38,3 +38,10 @@ if (!lastVisitDate) {
 }
 
 localStorage.setItem('lastVisitDate', currentDate.toISOString());
+
+// join forms
+document.getElementById('timestamp').value = new Date().toISOString();
+
+function validateForm() {
+    return true;
+}

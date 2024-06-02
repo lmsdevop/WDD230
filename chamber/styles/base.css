@@ -297,3 +297,103 @@ footer div {
 #sidebar-content {
     text-align: center;
 }
+
+/*--------------- JOIN -------------- */
+
+.join-hero-text {
+    font-family: var(--heading-font);
+    color: white;
+    text-align: center;
+}
+
+.join-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.join-main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-main h1 {
+    font-family: var(--heading-font);
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    font-family: var(--paragraph-font);
+}
+
+form {
+    flex: 1 1 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-family: var(--heading-font);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.membership-benefits {
+    flex: 1 1 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: var(--paragraph-font);
+
+}
+
+.membership-benefits strong {
+    font-family: var(--heading-font);
+}
+
+/*-------- THANK YOU -------*/
+
+.thank-main {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--paragraph-font);
+}
+
+.thank-main h1 {
+    font-family: var(--heading-font);
+    font-size: 50px;
+    color: #233073;
+}
