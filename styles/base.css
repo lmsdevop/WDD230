@@ -92,6 +92,38 @@ main h1 {
     padding: 15px;
 }
 
+#learning-activities {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#learning-activities div {
+    display: flex;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#learning-activities span {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+#learning-activities ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#learning-activities li {
+    list-style: none;
+    font-size: 15px;
+}
+
+
 section h2 {
     background-color: rgb(24, 58, 122);
     text-align: center;
@@ -100,20 +132,6 @@ section h2 {
     color: white;
 }
 
-section ul {
-    list-style-type: none;
-    font-size: 15px;
-    padding: 15px;
-    background-color: white;
-}
-
-section ul li {
-    margin: 5px 0;
-}
-
-section ul li a {
-    margin-right: 5px;
-}
 
 .card {
     border: 1px solid rgb(174, 174, 174);
@@ -194,6 +212,18 @@ nav a:hover {
     color: rgb(0, 0, 0);
 }
 
+.temp img {
+    width: 40%;
+}
+
+.temp p {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .google-maps {
     width: 90%;
     margin: 0 auto;
@@ -216,4 +246,21 @@ footer p {
 
 #lastModified {
     color: yellow;
+}
+
+.excuse-main {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--paragraph-font);
+}
+
+.excuse-main h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 50px;
+    color: #233073;
 }

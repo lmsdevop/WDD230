@@ -1,0 +1,98 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "mQueries"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "excuse-me.html",
+                    "title": "Design"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "Menu"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "BOM-25"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "excuse-me.html",
+                    "title": "WebP"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "Lazy"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "srcset"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "localStorage"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "excuse-me.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "mQueries"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "excuse-me.html",
+                    "title": "Pseudo-elements"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "JSON Data"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "excuse-me.html",
+                    "title": "Weather API"
+                }
+            ]
+        },
+        {
+            "week": "Week 6",
+            "links": [
+                {
+                    "url": "#",
+                    "title": "#"
+                }
+            ]
+        }
+    ]
+}
