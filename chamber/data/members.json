@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Tech Innovators Inc.",
+            "address": "123 Innovation Drive, San Francisco, CA 94107",
+            "phone": "+1-415-555-1234",
+            "website": "https://www.techinnovators.com",
+            "image": "tech_innovators.png",
+            "membership_level": "Gold",
+            "industry": "Technology"
+        },
+        {
+            "name": "Green Earth Solutions",
+            "address": "456 Greenway Blvd, Austin, TX 73301",
+            "phone": "+1-512-555-5678",
+            "website": "https://www.greenearthsolutions.com",
+            "image": "green_earth.png",
+            "membership_level": "Silver",
+            "industry": "Environmental Solutions"
+        },
+        {
+            "name": "HealthFirst Medical",
+            "address": "789 Wellness Ave, Boston, MA 02118",
+            "phone": "+1-617-555-9012",
+            "website": "https://www.healthfirstmedical.com",
+            "image": "healthfirst_medical.png",
+            "membership_level": "NP",
+            "industry": "Healthcare"
+        },
+        {
+            "name": "EduFuture Institute",
+            "address": "101 Learning Lane, New York, NY 10001",
+            "phone": "+1-212-555-3456",
+            "website": "https://www.edufutureinstitute.org",
+            "image": "edufuture_institute.png",
+            "membership_level": "Gold",
+            "industry": "Education"
+        },
+        {
+            "name": "UrbanDesign Studio",
+            "address": "202 Cityscape Dr, Los Angeles, CA 90015",
+            "phone": "+1-213-555-7890",
+            "website": "https://www.urbandesignstudio.com",
+            "image": "urbandesign_studio.png",
+            "membership_level": "Bronze",
+            "industry": "Urban Design"
+        },
+        {
+            "name": "Foodies Heaven",
+            "address": "303 Culinary Road, Chicago, IL 60616",
+            "phone": "+1-312-555-6543",
+            "website": "https://www.foodiesheaven.com",
+            "image": "foodies_heaven.png",
+            "membership_level": "Silver",
+            "industry": "Food & Beverage"
+        },
+        {
+            "name": "MarketGurus",
+            "address": "404 Commerce St, Seattle, WA 98101",
+            "phone": "+1-206-555-7891",
+            "website": "https://www.marketgurus.com",
+            "image": "market_gurus.png",
+            "membership_level": "NP",
+            "industry": "Marketing"
+        }
+    ]
+}

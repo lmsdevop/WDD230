@@ -43,7 +43,6 @@
     /*------------------ MAIN ------------- */
 
     main {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
 
@@ -122,4 +121,18 @@
         margin-bottom: 10px;
     }
 
+    /*-------------- DIRECTORY -----------*/
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .list section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .menu button {
+        width: 80px;
+    }
 }

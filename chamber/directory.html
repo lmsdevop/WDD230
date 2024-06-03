@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you for Submitting</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development, Lucas Mendonça, Thanks to the submittion">
+    <title>Rio de Janeiro - Chamber of Commerce | Directory WDD230</title>
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development, Lucas Mendonça, Chamber of Commerce Site Directory Page">
     <meta name="author" content="Lucas Mendonça de Souza">
     <meta property="og:title" content="Rio de Janeiro - Chamber of Commerce - WDD230">
     <meta property="og:image" content="https://lmsdevop.github.io/wdd230/chamber/images/christ.png">
@@ -36,14 +37,28 @@
             <ul class="menuLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li class="active"><a href="join.html">Join</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
+        <div class="header-background">
+            <div class="join-div">
+                <h1>Rio de Janeiro - Chamber of Commerce</h1>
+                <a href="join.html" class="join-button">
+                    <p>Join the Chamber</p>
+                </a>
+            </div>
+        </div>
     </header>
-    <main class="thank-main">
-        <h1>Thank You!</h1>
-        <p>Your application has been received. <br> We will get back to you shortly.</p>
+    <main class="directory-main">
+        <h2>Business Directory</h2>
+        <div class="menu">
+            <button id="grid"><img src="images/menu.png" alt=""></button>
+            <button id="list"><img src="images/list.png" alt=""></button>
+        </div>
+        <hr>
+        <article id="directory-article" class="grid">
+        </article>
     </main>
     <footer>
         <div class="footer-1">
@@ -60,6 +75,7 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 
 </html>
