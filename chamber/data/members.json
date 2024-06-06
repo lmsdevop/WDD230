@@ -7,7 +7,8 @@
             "website": "https://www.techinnovators.com",
             "image": "tech_innovators.png",
             "membership_level": "Gold",
-            "industry": "Technology"
+            "industry": "Technology",
+            "quote": "That is an amazing chamber of commerce"
         },
         {
             "name": "Green Earth Solutions",
@@ -16,7 +17,9 @@
             "website": "https://www.greenearthsolutions.com",
             "image": "green_earth.png",
             "membership_level": "Silver",
-            "industry": "Environmental Solutions"
+            "industry": "Environmental Solutions",
+            "quote": "What an amazing chamber of commerce."
+
         },
         {
             "name": "HealthFirst Medical",
@@ -25,7 +28,9 @@
             "website": "https://www.healthfirstmedical.com",
             "image": "healthfirst_medical.png",
             "membership_level": "NP",
-            "industry": "Healthcare"
+            "industry": "Healthcare",
+            "quote": "The chamber of commerce is absolutely fantastic."
+
         },
         {
             "name": "EduFuture Institute",
@@ -34,7 +39,9 @@
             "website": "https://www.edufutureinstitute.org",
             "image": "edufuture_institute.png",
             "membership_level": "Gold",
-            "industry": "Education"
+            "industry": "Education",
+            "quote": "It's an exceptional chamber of commerce."
+
         },
         {
             "name": "UrbanDesign Studio",
@@ -43,7 +50,8 @@
             "website": "https://www.urbandesignstudio.com",
             "image": "urbandesign_studio.png",
             "membership_level": "Bronze",
-            "industry": "Urban Design"
+            "industry": "Urban Design",
+            "quote": "That's an outstanding chamber of commerce."
         },
         {
             "name": "Foodies Heaven",
@@ -52,7 +60,9 @@
             "website": "https://www.foodiesheaven.com",
             "image": "foodies_heaven.png",
             "membership_level": "Silver",
-            "industry": "Food & Beverage"
+            "industry": "Food & Beverage",
+            "quote": "This chamber of commerce is truly remarkable."
+
         },
         {
             "name": "MarketGurus",
@@ -61,7 +71,8 @@
             "website": "https://www.marketgurus.com",
             "image": "market_gurus.png",
             "membership_level": "NP",
-            "industry": "Marketing"
+            "industry": "Marketing",
+            "quote": "Such an impressive chamber of commerce."
         }
     ]
 }

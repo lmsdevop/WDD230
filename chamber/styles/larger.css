@@ -49,7 +49,9 @@
     }
 
     main h2:nth-child(3) {
-        display: none;
+        display: block;
+        text-align: left;
+        margin: 20px;
     }
 
     .event-section {
@@ -61,14 +63,13 @@
     }
 
     .spotlight-section {
-        grid-column: span 4/5;
-        grid-row-start: 2;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0;
+        gap: 10px;
     }
 
     .spotlight-section div {
-        margin: 0 auto;
-        width: 100%;
         box-shadow: 0.2rem 0.2rem 0.5rem;
     }
 
